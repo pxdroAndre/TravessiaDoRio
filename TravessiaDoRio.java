@@ -90,36 +90,30 @@ public class TravessiaDoRio {
             case "e,e,d,e" -> {
                 return "F3";
             }
-            case "d,e,e,d" -> {
+            case "d,e,d,d" -> {
                 return "F4";
             }
             case "e,e,e,d" -> {
                 return "F5";
             }
-            case "d,d,e,e" -> {
+            case "d,d,e,d" -> {
                 return "F6";
             }
-            case "e,d,e,e" -> {
+            case "e,d,e,d" -> {
                 return "F7";
             }
             case "d,d,d,d" -> {
                 return "F8 (Vitória)";
             }
-            // F9 é idêntico a F2 no seu pseudocódigo
-            // case "d,e,d,e": return "F9";
-            case "e,d,e,d" -> {
+            case "d,d,d,e" -> {
+                return "F9";
+            }
+            case "e,d,e,e" -> {
                 return "F10";
-            }
-            case "d,d,e,d" -> {
-                return "F11";
-            }
-            case "e,d,d,e" -> {
-                return "F12";
             }
             default -> {
                 return "Configuração inválida";
             }
-        }
     }
 
     /**
